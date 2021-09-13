@@ -2,7 +2,7 @@
     <div>
         
         <form @submit.prevent="editarNota(nota)" v-if="modoEditar">
-            <h3>Editar nota</h3>
+            <h3>Editar Nota</h3>
             <input type="text" class="form-control mb-2" 
                 placeholder="Nombre de la nota" v-model="nota.nombre">
             <input type="text" class="form-control mb-2" 
